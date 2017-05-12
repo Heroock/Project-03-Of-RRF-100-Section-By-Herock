@@ -1,0 +1,117 @@
+/* =============================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ ============================================================================ */
+
+/* ====================== CSS Styling Start From Here ======================= */
+
+/* ============================= CSS For Fonts ============================== */
+
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* ========================= Fonts CSS End Here ============================= */
+
+/* ========================= General CSS For All ============================ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ==================== General CSS For All End Here ======================== */
+
+/* ======================== Optional CSS Style ============================== */
+
+.width {
+	padding-top: 100px;
+}
+
+/* ==================== Optional CSS Style End Here ========================= */
+
+/* ================== CSS For Content With Video Area ======================= */
+
+.content-with-video {
+	position: relative;
+}
+
+.video-btn {
+	background-color: #999999;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background: url(images/video-btn-bg.png);
+	border-radius: 0px 4px 4px 0px;
+	box-shadow: 0px 0px 15px #495050;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 42%;
+}
+
+.video-play-btn {
+	background: #00CB7C;
+	border-radius: 50%;
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+	height: 85px;
+	line-height: 85px;
+	margin-top: -42.5px;
+	padding: 0px 0px 0px 10px;
+	position: absolute;
+	right: -42.5px;
+	text-align: center;
+	top: 50%;
+	transition: 2s;
+	width: 85px;
+}
+
+.video-play-btn:hover {
+	box-shadow: 0px 0px 20px #00CB7C;
+}
+
+.video-content h2 {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 25px;
+}
+
+.video-content p {
+	/* text-align: justify; */
+	color: #AEAEAE;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 2% 0% 2% 0%;
+}
+
+.video-content ul.check-icon {
+	/* text-align: justify; */
+	font-size: 17px;
+	line-height: 25px;
+	list-style: none;
+}
+
+.video-content .check-icon li {
+	position: relative;
+	color: #373737;
+	padding: 0px 0px 10px 35px;
+}
+
+.video-content .check-icon li:before {
+	color: #00CB7C;
+	content: "\f00c";
+	font-family: fontAwesome;
+	left: 0;
+	margin-top: -1px;
+	position: absolute;
+	top: 0;
+}
+
+/* ================= Content With Video Area End Here ======================= */
+
+/* ======================= CSS Styling End Here ============================= */
